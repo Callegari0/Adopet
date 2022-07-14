@@ -1,0 +1,18 @@
+@import url("style/header1.css");
+@import url("style/footer1.css");
+@import url("style/inicial.css");
+
+:root {
+    --azul-principal: #3772FF;
+    --verde-principal: #36D6AD;
+    --branco: #FFFFFF;
+    --coral: #FC7071;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "IBM Plex Sans";
+}
+
+.body {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+}

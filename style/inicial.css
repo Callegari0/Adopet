@@ -1,0 +1,60 @@
+.div__principal {
+    background-color: var(--azul-principal);
+}
+
+.posicao__corpo {
+    position: relative;
+    bottom: 81px;
+}
+
+.container__body-principal {
+    text-align: center;
+    background-image: url("../img/Ilustração\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: 30% 110%;
+    height: 60vh;
+}
+
+.container__body-titulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 26px;
+    padding: 11px 0;
+    color: var(--branco);
+}
+
+.logo__branco {
+    position: relative;
+    bottom: 24px;
+}
+
+.container__body-texto {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 75px 24px 75px;
+    line-height: 24px;
+}
+
+.lista__botoes {
+    display: flex;
+    flex-direction: column;
+    width: 12em;
+    margin: 0 auto;
+}
+
+.lista__botoes-item {
+    padding: 12px 12px;
+    background-color: var(--coral);
+    border-radius: 8px;
+    margin-bottom: 14px;
+}
+
+.lista__botoes-item a {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--branco);
+}
