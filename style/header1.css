@@ -14,3 +14,10 @@
 .header__lista-item a {
     padding: 2em 0.5em 0 3em;
 }
+
+.mover__titular-rodape {
+    position: relative;
+    bottom: 130px;
+}
+
+
