@@ -10,10 +10,23 @@
     --fonte-secundaria: "IBM Plex Sans";
 }
 
+.fundo__patas {
+    height: 15em;
+    background-image: url("../img/Patas.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
 
+.div__forma2 {
+    background-image: url("../img/Forma\ 2-flip.svg");
+    background-repeat: no-repeat;
+    background-position-y: 390px;
+}
 
 .container__titular {
     text-align: center;
+    position: relative;
+    bottom: 130px;
 }
 
 .titular__texto-italico {
@@ -36,8 +49,6 @@
     width: 312px;
     margin: 0 auto 24px auto;
 }
-
-
 
 .titulo__cadastro {
     font-family: var(--fonte-principal);
@@ -73,9 +84,7 @@
     padding: 12px 30px;
     background-color: var(--coral);
     border-radius: 8px;
-    margin-bottom: 14px;
     box-shadow: 2px 2px var(--cinza);
-    margin-bottom: 104px;
 }
 
 .container__botao-item a {
