@@ -1,0 +1,85 @@
+:root {
+    --azul-principal: #3772FF;
+    --verde-principal: #36D6AD;
+    --branco: #FFFFFF;
+    --coral: #FC7071;
+    --cinza: #737380;
+    --cinza-placeholder: #BCBCBC;
+    --cinza-fundo-placeholder: #F6F6F6;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "IBM Plex Sans";
+}
+
+.container__titular {
+    font-family: var(--fonte-principal);
+}
+
+.header__lista-item-usuario {
+    margin-left: 4.5em;
+}
+
+.container__titular {
+    position: relative;
+    bottom: 130px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.titular__texto {
+    color: var(--azul-principal);
+    line-height: 21px;
+    width: 235px;
+    margin: 0 auto 24px auto;
+    text-align: center;
+}
+
+.container__dados-contato {
+    background-color: var(--cinza-fundo-placeholder);
+    text-align: center;
+    padding: 2em 0;
+    margin: 0 1em;
+}
+
+.titulo__cadastro {
+    color: var(--azul-principal);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.aba__preencher {
+    margin-bottom: 20px ;
+    width: 312px;
+    padding: 14px 0;
+    background-color: var(--branco);
+    border: 1px solid var(--cinza-fundo-placeholder);
+    border-radius: 10px;
+    box-shadow: 1px 2px var(--cinza-placeholder);
+}
+
+.aba__preencher-mensagem {
+    padding: 42px 0;
+}
+
+.aba__preencher::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 1em;
+}
+
+.container__botao-item {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--coral);
+    border-radius: 8px;
+    box-shadow: 2px 2px var(--cinza);
+}
+
+.container__botao-item a {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--branco);
+}
