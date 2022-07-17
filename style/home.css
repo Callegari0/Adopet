@@ -1,0 +1,77 @@
+:root {
+    --azul-principal: #3772FF;
+    --verde-principal: #36D6AD;
+    --branco: #FFFFFF;
+    --coral: #FC7071;
+    --cinza: #737380;
+    --cinza-placeholder: #BCBCBC;
+    --cinza-fundo-placeholder: #F6F6F6;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "IBM Plex Sans";
+}
+
+.header__lista-item-usuario {
+    margin-left: 4.5em;
+}
+
+.container__titular {
+    position: relative;
+    bottom: 130px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.titular__texto {
+    color: var(--azul-principal);
+    line-height: 21px;
+    width: 250px;
+    margin: 0 auto 24px auto;
+    text-align: center;
+}
+
+.container__titular-card {
+    margin-bottom: 1em;
+}
+
+.container__card-lista {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 0;
+    background-color: var(--cinza-fundo-placeholder);
+}
+
+.container__titular-nome {
+    font-weight: 600;
+    color: var(--azul-principal);
+    margin-bottom: 12px;
+}
+
+.container__titular-idade, .container__titular-porte, 
+.container__titular-temperamento {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.container__titular-temperamento {
+    margin-bottom: 30px;
+}
+
+.container__titular-localizacao {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.container__titular-responsavel {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.icone__mensagem {
+    position: relative;
+    top: .8em;
+    margin-right: .5em;
+}

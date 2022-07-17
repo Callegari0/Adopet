@@ -1,0 +1,114 @@
+:root {
+    --azul-principal: #3772FF;
+    --verde-principal: #36D6AD;
+    --branco: #FFFFFF;
+    --coral: #FC7071;
+    --cinza: #737380;
+    --cinza-placeholder: #BCBCBC;
+    --cinza-fundo-placeholder: #F6F6F6;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "IBM Plex Sans";
+}
+
+.fundo__patas {
+    height: 15em;
+    background-image: url("../img/Patas.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.div__forma2 {
+    background-image: url("../img/Forma\ 2-flip.svg");
+    background-repeat: no-repeat;
+    background-position-y: 390px;
+}
+
+.container__titular {
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+}
+
+.titular__texto-italico {
+    font-style: italic;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul-principal);
+    line-height: 21px;
+    margin-top: 25px;
+    margin-bottom: 1em;
+}
+
+.titular__texto {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul-principal);
+    line-height: 21px;
+    width: 312px;
+    margin: 0 auto 24px auto;
+}
+
+.titular__texto-login {
+    margin: 56px auto 42px auto;
+}
+
+.titulo__cadastro {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: 10px;
+}
+
+.aba__preencher {
+    margin-bottom: 20px;
+    width: 312px;
+    padding: 14px 0;
+    text-align: center;
+    background-color: var(--cinza-fundo-placeholder);
+    border: 1px solid var(--cinza-fundo-placeholder);
+    border-radius: 10px;
+    box-shadow: 1px 2px var(--cinza-placeholder);
+}
+
+.aba__preencher::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.aba__preencher-fundo::placeholder {
+    background-image: url("../img/Vector.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+}
+
+.container__titular-esqueci-senha {
+    color: var(--coral);
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container__botao-item-login {
+    margin-top: 2em;
+    margin-bottom: 120px;
+}
+
+.container__botao-item {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--coral);
+    border-radius: 8px;
+    box-shadow: 2px 2px var(--cinza);
+}
+
+.container__botao-item a {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--branco);
+}
