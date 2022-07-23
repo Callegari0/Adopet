@@ -20,4 +20,15 @@
     bottom: 130px;
 }
 
+@media screen and (min-width: 768px) {
+    .container__header {
+        background-image: url("../img/Forma\ 1-maior.svg");
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
 
+    .logo__branco-menor {
+        display: inline-block;
+        margin-left: 4em;
+    }
+}

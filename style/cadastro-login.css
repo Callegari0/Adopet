@@ -86,6 +86,7 @@
 }
 
 .container__titular-esqueci-senha {
+    display: block;
     color: var(--coral);
     font-family: var(--fonte-principal);
     font-size: 12px;
@@ -111,4 +112,77 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--branco);
+}
+
+button {
+    background-color: var(--coral);
+    border: none;
+}
+
+.logo-azul-maior {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .container__titular {
+        position: relative;
+        bottom: 460px;
+    }
+
+    .fundo__patas {
+        height: 17em;
+        background-image: url("../img/Patas-maior.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    .logo-azul {
+        display: none;
+    }
+
+    .logo-azul-maior {
+        display: inline-block;
+    }
+
+    .titular__texto-italico, .titular__texto, .titulo__cadastro {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .titulo__cadastro {
+        margin-bottom: 15px;
+    }
+
+    .titular__texto {
+        width: 30em;
+        line-height: 1.5rem;
+    }
+
+    .div__forma2 {
+        background-image: url("../img/Forma\ 2-maior.svg");
+        background-repeat: no-repeat;
+        background-position-y: 280px;
+        background-position-x: right;
+    }
+
+    .aba__preencher {
+        margin-bottom: 35px;
+    }
+
+    .aba__preencher::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .aba__preencher-fundo::placeholder {
+        background-position-y: center;
+    }
+
+    .container__botao-item a {
+        font-size: 18px;
+    }
+
+    .container__titular-esqueci-senha {
+        font-size: 14px;
+    }
 }

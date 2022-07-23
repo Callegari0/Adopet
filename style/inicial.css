@@ -66,3 +66,82 @@
     text-decoration: none;
     color: var(--branco);
 }
+
+.logo__branco-maior {
+    display: none;
+}
+
+.logo__branco-menor {
+    display: none;
+}
+
+.container__body-texto-tablet {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .logo__branco-menor {
+        display: inline-block;
+        margin-left: 4em;
+    }
+
+    .logo__branco {
+        display: none;
+    }
+
+    .logo__branco-maior {
+        display: inline-block;
+    }
+
+    .posicao__corpo {
+        display: inline-block;
+        bottom: 45vh;
+    }
+
+    .container__body-titulo {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .container__body-texto {
+        display: none;
+    }
+
+    .container__body-texto-tablet {
+        display: block;
+        font-family: var(--fonte-principal);
+        font-size: 18px;
+        font-weight: 400;
+        width: 20em;
+        font-size: 18px;
+        color: var(--branco);
+        margin: 24px auto 38px auto;
+    }
+
+    .lista__botoes {
+        width: 18em;
+    }
+
+    .lista__botoes-item a {
+        font-size: 18px;
+    }
+
+    .lista__botoes-item {
+        padding: 18px 24px;
+    }
+
+    .div__forma2 {
+        background-image: url("../img/Forma\ 2-maior.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-y: 27%;
+    }
+
+    .container__body-principal {
+        text-align: center;
+        background-image: url("../img/Ilustração-maior.svg");
+        background-repeat: no-repeat;
+        background-position: 45% 110%;
+        height: 76vh;
+    }
+}

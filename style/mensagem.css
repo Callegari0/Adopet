@@ -83,3 +83,8 @@
     text-decoration: none;
     color: var(--branco);
 }
+
+button {
+    background-color: var(--coral);
+    border: none;
+}
