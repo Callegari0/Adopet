@@ -38,7 +38,7 @@
     background-color: var(--cinza-fundo-placeholder);
     text-align: center;
     padding: 2em 0;
-    margin: 0 1em;
+    margin: 0 auto;
 }
 
 .titulo__perfil {
@@ -123,4 +123,73 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--branco);
+}
+
+.header__lista-item-usuario-maior {
+    display: none;
+}
+
+.logo__branco-menor {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header__lista-item-usuario {
+        display: none;
+    }
+
+    .header__lista-item-usuario-maior {
+        display: inline-block;
+        margin-left: 35vw;
+    }
+
+    .container__titular {
+        position: relative;
+        bottom: 450px;
+        background-image: url("../img/Forma\ 2-maior.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .container__dados {
+        position: relative;
+        bottom: -100px;
+    }
+
+    .titular__texto {
+        font-size: 18px;
+        width: 65vw;
+    }
+
+    .container__dados-contato {
+        width: 65vw;
+    }
+
+    .aba__preencher {
+        width: 60vw;
+    }
+
+    .titulo__cadastro1 {
+        position: relative;
+        right: 12.8em;
+    }
+    
+    .titulo__cadastro2 {
+        position: relative;
+        right: 12.2em;
+    }
+    
+    .titulo__cadastro3 {
+        position: relative;
+        right: 12.5em;
+    }
+    
+    .titulo__cadastro4 {
+        position: relative;
+        right: 12.8em;
+    }
+
+    .aba__preencher::placeholder {
+        font-size: 14px;
+    }
 }

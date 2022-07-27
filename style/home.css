@@ -30,6 +30,11 @@
     text-align: center;
 }
 
+.container__card {
+    width: 90vw;
+    margin: 0 auto;
+}
+
 .container__titular-card {
     margin-bottom: 1em;
 }
@@ -76,11 +81,22 @@
     margin-right: .5em;
 }
 
+.header__lista-item-usuario-maior {
+    display: none;
+}
+
+.logo__branco-menor {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
     .container__titular {
         position: relative;
         bottom: 360px;
+    }
+
+    .logo__branco-menor {
+        display: inline-block;
     }
 
     .header__lista {
@@ -92,6 +108,7 @@
     }    
 
     .header__lista-item-usuario-maior {
+        display: inline-block;
         margin-left: 35vw;
     }
 
@@ -106,7 +123,7 @@
     }
 
     .container__titular-card {
-        width: 48vw;
+        width: 42vw;
     }
 
     .zelda {

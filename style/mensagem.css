@@ -14,6 +14,10 @@
     font-family: var(--fonte-principal);
 }
 
+.header__lista {
+    width: 100vw;
+}
+
 .header__lista-item-usuario {
     margin-left: 4.5em;
 }
@@ -38,7 +42,8 @@
     background-color: var(--cinza-fundo-placeholder);
     text-align: center;
     padding: 2em 0;
-    margin: 0 1em;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 .titulo__cadastro {
@@ -87,4 +92,46 @@
 button {
     background-color: var(--coral);
     border: none;
+}
+
+.header__lista-item-usuario-maior{
+    display: none;
+}
+
+.logo__branco-menor {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header__lista-item-usuario {
+        display: none;
+    }
+
+    .header__lista-item-usuario-maior {
+        display: inline-block;
+        margin-left: 35vw;
+    }
+
+    .container__titular {
+        position: relative;
+        bottom: 450px;
+        background-image: url("../img/Forma\ 2-maior.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .container__dados-contato {
+        margin-top: 3em;
+        width: 70vw;
+    }
+
+    .titular__texto {
+        font-size: 18px;
+        font-weight: 400;
+        width: 380px;
+    }
+
+    .aba__preencher::placeholder {
+        font-size: 14px;
+    }
 }
